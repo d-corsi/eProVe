@@ -65,7 +65,6 @@ List of the available heuristics (with the default paramters):
 ```python
 split_node_heu = "distr"
 split_pos_heu = "distr"
-split_test_heu = "none"
 ```
 
 Following a list of the valid options, please refer to the main paper [1] for a complete description of the approaches:
