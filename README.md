@@ -1,6 +1,6 @@
 # ϵProVe
 
-This is the python implementation of ϵ-ProVe, a tool for the *AllDNN-Verification Problem* (i.e., the problem of computing the set of all the areas that do not result in a violation for a given DNN and a safety property). ϵ-ProVe is an approximation approach that provides  provable (probabilistic) guarantees on the returned areas. 
+This is the Python implementation of ϵ-ProVe, a tool for the *AllDNN-Verification Problem* (i.e., the problem of computing the set of all the areas that do not result in a violation for a given DNN and a safety property). ϵ-ProVe is an approximation approach that provides  provable (probabilistic) guarantees on the returned areas. 
 
 ## Abstract
 Identifying safe areas is a key point to guarantee trust for systems that are based on Deep Neural Networks (DNNs). To this end, we introduce the AllDNN-Verification problem: given a safety property and a DNN, enumerate the set of all the regions of the property input domain which are safe, i.e., where the property does hold. Due to the #P-hardness of the problem, we propose an efficient approximation method called ε-ProVe. Our approach exploits a controllable underestimation of the output reachable sets obtained via statistical prediction of tolerance limits, and can provide a tight —with provable probabilistic guarantees— lower estimate of the safe areas. Our empirical evaluation on different standard benchmarks shows the scalability and effectiveness of our method, offering valuable insights for this new type of verification of DNNs.
@@ -83,12 +83,6 @@ split_node_heu = "distr" # i.e., select the node that maximize the unsafe portio
 split_pos_heu = "median" # i.e., select the median value based on the point cloud collected
 split_pos_heu = "mean" # i.e., always split the interval into two equals portion
 split_pos_heu = "distr" # i.e., select the position in the interval that maximizes the unsafe portion of the area (please refer to the main paper for details [1])
-
-#####
-## split_test_heu: additional heuristic to decide whether a node should be splitted or conisdered 'violated'
-#####
-split_test_heu = "none" # i.e., based only on the maximum depth
-split_test_heu = "entropy" # i.e., additional condition based on the average entropy of the children node
 ```
 
 ### Models
@@ -101,4 +95,4 @@ All the neural networks in inputs must be in PyTorch standard format. The models
 *  **Luca Marzari** - luca.marzari@univr.it
 
 ## Reference
-[1] *...coning soon...*
+[1] *...coming soon...*
