@@ -65,7 +65,6 @@ List of the available heuristics (with the default paramters):
 ```python
 split_node_heu = "distr"
 split_pos_heu = "distr"
-split_test_heu = "none"
 ```
 
 Following a list of the valid options, please refer to the main paper [1] for a complete description of the approaches:
@@ -83,12 +82,6 @@ split_node_heu = "distr" # i.e., select the node that maximize the unsafe portio
 split_pos_heu = "median" # i.e., select the median value based on the point cloud collected
 split_pos_heu = "mean" # i.e., always split the interval into two equals portion
 split_pos_heu = "distr" # i.e., select the position in the interval that maximizes the unsafe portion of the area (please refer to the main paper for details [1])
-
-#####
-## split_test_heu: additional heuristic to decide whether a node should be splitted or conisdered 'violated'
-#####
-split_test_heu = "none" # i.e., based only on the maximum depth
-split_test_heu = "entropy" # i.e., additional condition based on the average entropy of the children node
 ```
 
 ### Models
