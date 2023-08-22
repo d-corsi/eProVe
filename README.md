@@ -94,4 +94,4 @@ All the neural networks in inputs must be in PyTorch standard format. The models
 *  **Luca Marzari** - luca.marzari@univr.it
 
 ## Reference
-[1] *...coming soon...*
+[1] [Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees](https://arxiv.org/abs/2308.09842).  Marzari L., Corsi D., Marchesini E., Farinelli A., and Cicalese F., arXiv, 2023
