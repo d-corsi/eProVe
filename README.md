@@ -1,4 +1,4 @@
-# ϵProVe
+# ϵ-ProVe
 
 This is the Python implementation of ϵ-ProVe, a tool for the *AllDNN-Verification Problem* (i.e., the problem of computing the set of all the areas that do not result in a violation for a given DNN and a safety property). ϵ-ProVe is an approximation approach that provides  provable (probabilistic) guarantees on the returned areas. 
 
@@ -94,7 +94,7 @@ All the neural networks in inputs must be in PyTorch standard format. The models
 *  **Luca Marzari** - luca.marzari@univr.it
 
 ## Reference
-[1] [Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees](https://arxiv.org/abs/2308.09842).  Marzari L., Corsi D., Marchesini E., Farinelli A., and Cicalese F., arXiv, 2023
+[1] [Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees](https://arxiv.org/abs/2308.09842).  Marzari L., Corsi D., Marchesini E., Farinelli A., and Cicalese F., AAAI, 2024
 
 ### Citing the Paper:
 If you use our verifier in your work, please kindly cite our paper:
@@ -102,7 +102,7 @@ If you use our verifier in your work, please kindly cite our paper:
 @article{marzari2023enumerating,
   title={Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees},
   author={Marzari, Luca and Corsi, Davide and Marchesini, Enrico and Farinelli Alessandro and Cicalese, Ferdinando},
-  journal={arXiv preprint arXiv:2308.09842},
-  year={2023}
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2024}
 }
 ```
